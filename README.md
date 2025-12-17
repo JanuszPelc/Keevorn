@@ -9,6 +9,10 @@ Keevorn is a solo dungeon crawler you can play with a standard deck of cards and
 - [Rulebook (how to play)](documents/keevorn_rulebook.pdf?raw=true)
 - [Quick reference](documents/keevorn_quick_reference.pdf?raw=true)
 
+## See also
+
+- [Reddit announcement thread](https://www.reddit.com/r/soloboardgaming/comments/1pouxx7/keevorn_a_solo_dungeon_crawler_for_a_standard/)
+
 ---
 
 Keevorn · Released December 2025 · MIT License · [github.com/JanuszPelc/Keevorn](https://github.com/JanuszPelc/Keevorn)
