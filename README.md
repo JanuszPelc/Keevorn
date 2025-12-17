@@ -11,7 +11,7 @@ Keevorn is a solo dungeon crawler you can play with a standard deck of cards and
 
 ## See also
 
-- [Reddit announcement thread](https://www.reddit.com/r/soloboardgaming/comments/1pouxx7/keevorn_a_solo_dungeon_crawler_for_a_standard/)
+- [Reddit discussion thread](https://www.reddit.com/r/soloboardgaming/comments/1pouxx7/keevorn_a_solo_dungeon_crawler_for_a_standard/)
 
 ---
 
