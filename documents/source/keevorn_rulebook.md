@@ -36,7 +36,7 @@ Equipped Weapons can only fight Monsters that match the color of the Hand. If a 
 
 ### Backpack
 
-At any time, if the Room is not empty, you can:
+At any time while exploring a non-empty Room, you can:
 
 - Pick any Weapon or Potion from the Room and store it in your Backpack. Your Backpack holds up to three cards. If your Backpack is full, you cannot store a card in it.
 - Place any card from your Backpack into the Room. The Room holds a maximum of four cards. If the Room is full, you cannot place a card into it.
@@ -68,9 +68,11 @@ At any time, if the Room is not empty, you can:
 
 You step into a bone-dry antechamber. It smells of dust, ancient paper, and ground stone. Something crunches beneath your boot. A hooded peddler appears, willing to trade Weapons for anything else you don't need.
 
+This step happens once, right after you reveal the very first Room, and before you start exploring it. During the Peddler’s trade you do not play cards, equip Weapons, use skills, or move cards to or from your Backpack.
+
 For each non-Weapon card you may wish to trade, place it on the bottom of the Floor, then reveal cards from the top until you find a Weapon. Add it to the Room and put all revealed non-Weapon cards on the bottom of the Floor.
 
-The peddler vanishes. You are on your own now.
+The peddler vanishes. You are on your own now. Time to **Explore** the first Room.
 
 ### Exploring a Room
 
