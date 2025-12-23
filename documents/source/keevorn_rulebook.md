@@ -2,6 +2,7 @@
 
 A single-player dungeon crawler card game by Janusz Pelc.
 
+- Treat each room as a small card puzzle
 - Fight monsters and manage your inventory
 - Master skills and potions to survive
 - Read scrolls to face your fortune
