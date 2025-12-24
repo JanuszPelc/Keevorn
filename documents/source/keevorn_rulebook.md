@@ -201,6 +201,83 @@ These are just starting points. Make the game your own!
 
 <div style="page-break-before: always;"></div>
 
+## Common questions
+
+### About the Room
+
+**Can I discard a card I don't want?**
+No. Cards leave the Room only by playing them, storing them in the Backpack, or through effects like Bury or Relief.
+
+**What if I'm stuck with a card I can't deal with?**
+Treat it as a puzzle. Find a valid option, often one that minimizes the loss. You could equip a Weapon (discarding from your Hand if full), store it in your Backpack if it's a number card, use another card's effect to move or discard it, or accept the cost (drink a black Potion, fight barehanded).
+
+### About combat
+
+**Can I choose not to use a Weapon I have equipped?**
+Yes. You select which Weapons to use each fight. Unselected Weapons stay in your Hand for later.
+
+**What if I have no matching Weapons?**
+You fight barehanded (attack power 0) and lose Health equal to the Monster's full strength. Remember that Spades in the Room can join any fight regardless of color. Alternatively, find a way to get rid of the Monster using other cards' effects.
+
+**Does selecting a Weapon for combat free up its slot in the Hand?**
+No. The slot stays occupied until combat ends. You can move the card physically to visualize the fight, but you cannot equip a new Weapon into that slot mid-combat.
+
+### About Weapons
+
+**Can I use a Weapon's skill from my Hand?**
+No. Skills only work from the Room. Once equipped, a Weapon can only be used in combat.
+
+**Can I equip a Weapon from my Backpack?**
+Yes, but not directly. Move it to the Room while exploring (if there's space), then equip from there.
+
+**Can I discard a Weapon from my Hand whenever I want?**
+No. You only discard from a Hand when making space for a new Weapon, or when selecting it for combat.
+
+**When can Spades in the Room join combat?**
+Whenever you fight a Monster. Spades in the Room may join regardless of the Monster's color. They get discarded after combat like any selected Weapon.
+
+<div style="page-break-before: always;"></div>
+
+### About Potions
+
+**Can I avoid drinking a black Potion?**
+No. If you play a Potion, you must apply its effect. Store it in your Backpack to delay the decision, or use effects like Bury or Relief to discard it.
+
+### About the Backpack
+
+**What can I store in my Backpack?**
+Only number cards: Weapons (5–10) and Potions (2–4). Aces, Monsters, and Jokers cannot be stored.
+
+**When can I use my Backpack?**
+At any time while exploring a non-empty Room. You can store a number card from the Room (if your Backpack has space), or place a card from your Backpack into the Room (if the Room has space).
+
+**Can I use the Backpack during the Peddler's trade?**
+No. The Peddler's trade happens before you start exploring the first Room.
+
+### About the Peddler's trade
+
+**What can I trade to the Peddler?**
+Any non-Weapon in the starting Room: Potions, Monsters, Aces, even Jokers.
+
+**What happens to Weapons already in the starting Room?**
+They stay. You don't trade Weapons, and you don't equip anything during this step.
+
+**Is the Peddler's trade mandatory?**
+No. If you like your starting Room or want a harder start, skip it.
+
+### About Stairs and Fortunes
+
+**Can Jokers be moved or discarded?**
+Yes, but only through effects: Bury (Diamond skill), Surprise (Joker Fortune), or the Peddler's trade.
+
+**What happens if the Floor is empty when I play an Ace?**
+Just discard the Ace. No Fortune is drawn.
+
+**What if a Fortune can't be resolved?**
+If Loss triggers with an empty Backpack, or Relief triggers with no valid target, nothing happens. The Fortune is simply skipped.
+
+<div style="page-break-before: always;"></div>
+
 ## Quick reference
 
 | Concept  | Rule                                                          |
