@@ -13,7 +13,7 @@ A single-player dungeon crawler card game by Janusz Pelc.
 
 You need a standard deck of cards and two Jokers. To track Health, use paper, a life counter, or a d20.
 
-Cards ranked 5–10 are Weapons. Cards ranked 2–4 are Potions. Together, these are the tools of your trade.
+Cards ranked 5–10 are Weapons to aid your journey. Cards ranked 2–4 are Relics you must deal with.
 
 ### Depth
 
@@ -38,7 +38,7 @@ Equipped Weapons can only fight Monsters that match the color of the Hand. If a 
 
 At any time while exploring a non-empty Room, you can:
 
-- Pick any Weapon or Potion from the Room and store it in your Backpack. Your Backpack holds up to three cards. If your Backpack is full, you cannot store a card in it.
+- Pick any Weapon or Relic from the Room and store it in your Backpack. Your Backpack holds up to three cards. If your Backpack is full, you cannot store a card in it.
 - Place any card from your Backpack into the Room. The Room holds a maximum of four cards. If the Room is full, you cannot place a card into it.
 
 ### Piles
@@ -48,7 +48,7 @@ At any time while exploring a non-empty Room, you can:
 | Floor    | Face-down pile from unvisited rooms   |
 | Room     | Cards you must clear to proceed       |
 | Hands    | Equipped Weapons you fight with       |
-| Backpack | Your Weapon and Potion reserve        |
+| Backpack | Your Weapon and Relic reserve         |
 | Discard  | Face-down pile of discarded cards     |
 
 ### Example layout
@@ -89,18 +89,18 @@ To **Enter** a new Room, draw up to four cards from the Floor (or fewer, if the 
 
 <div style="page-break-before: always;"></div>
 
-## Playing rank 2–4 cards (Potions)
+## Playing rank 2–4 cards (Relics)
 
-Potions are mysterious brews that affect your Health the moment you drink them.
+Relics are ancient fragments you must deal with. Primal Charms (red) restore vitality. Cursed Shards (black) drain your life force.
 
-To play a Potion, discard it and apply the effect based on its color:
+To play a Relic, discard it and apply the effect based on its color:
 
-- Red (♥ or ♦) - **Elixir:** Gain Health equal to the card's rank
-- Black (♠ or ♣) - **Bane:** Lose Health equal to the card's rank
+- Red (♥ or ♦) - Gain Health equal to the card's rank
+- Black (♠ or ♣) - Lose Health equal to the card's rank
 
 ## Playing rank 5–10 cards (Weapons)
 
-You may equip a Weapon only by playing it from the Room. You cannot equip from the Backpack.
+Weapons are the tools of your trade. You may equip a Weapon only by playing it from the Room. You cannot equip from the Backpack.
 
 ### Spades ♠ (Attack skill)
 
@@ -155,7 +155,7 @@ The drawn card remains in the Room, and determines which Fortune you must face, 
 - ♠ Spades - **Pain:** Lose Health equal to three times the Depth
 - ♣ Clubs - **Loss:** Discard any card from your Backpack
 - ♥ Hearts - **Vigor:** Gain Health equal to three times the Depth
-- ♦ Diamonds - **Relief:** Discard any Monster or Potion in the Room
+- ♦ Diamonds - **Relief:** Discard any Monster or Relic in the Room
 - Joker - **Surprise:** Discard any number of cards from the Room
 
 At the ground level (Depth 0), Pain and Vigor do not affect your Health.
@@ -191,7 +191,7 @@ And here's the secret of Keevorn: luck deals, skill wins.
 ## House rules
 
 - On a coffee-break? Pick a Depth and play without Jokers.
-- Up for relaxed play? Treat Potions as Weapons.
+- Up for relaxed play? Treat Relics as Weapons.
 - Feeling brave or fragile? Lower or raise the maximum Health.
 - Craving a longer and grimmer journey? Use more Jokers.
 - Chasing bragging rights? Brag about your clean kills.
@@ -208,7 +208,7 @@ These are just starting points. Make the game your own!
 No. Cards leave the Room only by playing them, storing them in the Backpack, or through effects like Bury or Relief.
 
 **What if I'm stuck with a card I can't deal with?**
-Treat it as a puzzle. Find a valid option, often one that minimizes the loss. You could equip a Weapon (discarding from your Hand if full), store it in your Backpack if it's a number card, use another card's effect to move or discard it, or accept the cost (drink a black Potion, fight barehanded).
+Treat it as a puzzle. Find a valid option, often one that minimizes the loss. You could equip a Weapon (discarding from your Hand if full), store it in your Backpack if it's a number card, use another card's effect to move or discard it, or accept the cost (play a black Relic, fight barehanded).
 
 ### About combat
 
@@ -237,15 +237,15 @@ Whenever you fight a Monster. Spades in the Room may join regardless of the Mons
 
 <div style="page-break-before: always;"></div>
 
-### About Potions
+### About Relics
 
-**Can I avoid drinking a black Potion?**
-No. If you play a Potion, you must apply its effect. Store it in your Backpack to delay the decision, or use effects like Bury or Relief to discard it.
+**Can I avoid playing a black Relic?**
+No. If you play a Relic, you must apply its effect. Store it in your Backpack to delay the decision, or use effects like Bury or Relief to discard it.
 
 ### About the Backpack
 
 **What can I store in my Backpack?**
-Only number cards: Weapons (5–10) and Potions (2–4). Aces, Monsters, and Jokers cannot be stored.
+Only number cards: Weapons (5–10) and Relics (2–4). Scrolls, Monsters, and Stairs cannot be stored.
 
 **When can I use my Backpack?**
 At any time while exploring a non-empty Room. You can store a number card from the Room (if your Backpack has space), or place a card from your Backpack into the Room (if the Room has space).
@@ -256,7 +256,7 @@ No. The Peddler's trade happens before you start exploring the first Room.
 ### About the Peddler's trade
 
 **What can I trade to the Peddler?**
-Any non-Weapon in the starting Room: Potions, Monsters, Aces, even Jokers.
+Any non-Weapon in the starting Room: Relics, Monsters, Scrolls, and even Stairs.
 
 **What happens to Weapons already in the starting Room?**
 They stay. You don't trade Weapons, and you don't equip anything during this step.
@@ -284,11 +284,11 @@ If Loss triggers with an empty Backpack, or Relief triggers with no valid target
 | Depth    | Number of Jokers removed from the game (0, 1, 2)              |
 | Health   | Starts at 20, cannot exceed 20, you die below 1               |
 | Hands    | Each one holds up to two Weapons, red and black separately    |
-| Backpack | Holds up to three Weapons or Potions                          |
+| Backpack | Holds up to three Weapons or Relics                           |
 
 | Rank       | Type     | Mechanics                                            |
 |------------|----------|------------------------------------------------------|
-| 2–4        | Potions  | Red heals, black hurts (by card's rank)              |
+| 2–4        | Relics   | Red heals, black hurts (by card's rank)              |
 | 5–10       | Weapons  | Equip to color-matching Hand, or use unique Skills   |
 | Face cards | Monsters | Strength: Jack 11, Queen 12, King 13                 |
 | Ace        | Scrolls  | Draw a card and face your Fortune                    |
@@ -299,7 +299,7 @@ If Loss triggers with an empty Backpack, or Relief triggers with no valid target
 | Spades ♠   | Attack | Pain     | Lose Health equal to three times the Depth  | Black |
 | Clubs ♣    | Probe  | Loss     | Discard any card from your Backpack         | Black |
 | Hearts ♥   | Heal   | Vigor    | Gain Health equal to three times the Depth  | Red   |
-| Diamonds ♦ | Bury   | Relief   | Discard any Monster or Potion in the Room   | Red   |
+| Diamonds ♦ | Bury   | Relief   | Discard any Monster or Relic in the Room    | Red   |
 | Joker      | —      | Surprise | Discard any number of cards from the Room   | —     |
 
 | Fighting   | Room   | Hand     | Selected       | Case    | Health                      |
@@ -312,4 +312,4 @@ If Loss triggers with an empty Backpack, or Relief triggers with no valid target
 | Q♥ (12)    | 9♠     | 6♥, 8♦   | 6♥ + 8♦ + 9♠   | 23 > 12 | Gain 11 (♠ bonus)           |
 | Q♥ (12)    | 9♠     | 6♥, 8♦   | 6♥ + 8♦        | 14 > 12 | No change (no ♠ selected)   |
 
-Keevorn · Released December 2025 · MIT License · [github.com/JanuszPelc/Keevorn](https://github.com/JanuszPelc/Keevorn)
+Keevorn · Revised December 2025 · MIT License · [github.com/JanuszPelc/Keevorn](https://github.com/JanuszPelc/Keevorn)
