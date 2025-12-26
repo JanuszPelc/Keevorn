@@ -17,7 +17,7 @@ Cards ranked 5–10 are Weapons to aid your journey. Cards ranked 2–4 are Reli
 
 ### Depth
 
-You start at the ground level (Depth 0). Each time you descend Stairs, a Joker is removed from the game and tension increases. The Depth equals the number of removed Jokers. With two Jokers, the Depth progression is 0, 1, 2.
+You start at the ground level (Depth 0). Descending Stairs removes all Jokers in the Room from the game. The Depth equals the total Jokers removed.
 
 ### Health
 
@@ -139,45 +139,42 @@ Jack, Queen, and King are Monsters with strength 11, 12, and 13 respectively. Wh
 3. Compare your attack power to the Monster's strength:
    - If your attack power is lower, you lose Health equal to the difference.
    - If your attack power is higher, you win. If selected cards contain any Spade, also gain Health equal to the difference.
-   - If they are equal, this is a clean kill.
+   - If they are equal, this is a **clean kill**.
 4. Discard the selected cards and the Monster.
 
 You may choose to fight barehanded, in which case your attack power is 0 and you lose Health equal to the Monster's full strength.
 
-## Playing Aces (Scrolls)
+### Clean kill
 
-Aces are arcane Scrolls that reveal your Fortune. To read a Scroll, discard an Ace, then draw a card from the Floor and place it face-up in the Room. If the Floor is empty, just discard the Ace and skip the Fortune step.
+A strike of absolute clarity stills the draft. In the breathless silence that follows, the dungeon leans in to listen. For a fleeting heartbeat, your unspoken intent becomes the only law.
 
-### Your Fortune
+Your precision is rewarded. After discarding the selected cards and the Monster, name any **Fortune** and resolve it immediately.
 
-The drawn card remains in the Room, and determines which Fortune you must face, resolving it immediately. Fortunes are:
+### Fortunes
 
-- ♠ Spades - **Pain:** Lose Health equal to three times the Depth
-- ♣ Clubs - **Loss:** Discard any card from your Backpack
-- ♥ Hearts - **Vigor:** Gain Health equal to three times the Depth
-- ♦ Diamonds - **Relief:** Discard any Monster or Relic in the Room
-- Joker - **Surprise:** Discard any number of cards from the Room
+- **Pain:** Lose Health equal to three times the Depth (determined by ♠ Spades)
+- **Loss:** Discard any card from your Backpack (determined by ♣ Clubs)
+- **Vigor:** Gain Health equal to three times the Depth (determined by ♥ Hearts)
+- **Relief:** Discard any Monster or Relic in the Room (determined by ♦ Diamonds)
+- **Surprise:** Name and resolve any Fortune (determined by Joker)
 
 At the ground level (Depth 0), Pain and Vigor do not affect your Health.
 
 <div style="page-break-before: always;"></div>
 
+## Playing Aces (Scrolls)
+
+Aces are arcane Scrolls that reveal your Fortune. To read one, discard it and draw a card from the Floor into the Room. If the Floor is empty, just discard the Ace.
+
+The drawn card remains in the Room, and determines which **Fortune** you must face, resolving it immediately.
+
 ## Playing Jokers (Stairs)
 
-Jokers cannot be played. They stay in the Room until all other cards are cleared, unless an effect moves or discards them. When only Jokers remain in the Room, you have found the Stairs and the current Floor ends. Possible cases are:
+Jokers cannot be played. They stay in the Room until all other cards are cleared. When only Jokers remain, you have found the Stairs and the current Floor ends.
 
-- **One Joker:** Remove it from the game. Shuffle the Floor and Discard piles together to form a new Floor pile, then **Enter** the first Room.
-- **More than one Joker:** Immediately proceed to the Secret Floor section below.
+The stairs wind downward through ancient passages. Faded carvings line the walls, their stories worn smooth by time. A cold draft rises from the depths, carrying the ghost-breath of those who walked this path before.
 
-### Secret Floor
-
-Multiple stairways converge into a gloomy passage. You've found a Secret Floor, a rare detour from the main dungeon.
-
-Take all Jokers from the Room. Choose whichever pile (Floor or Discard) looks larger to you and insert the Jokers into that pile at random places, so they aren't all together.
-
-Shuffle the Floor and Discard piles together to form a new Floor pile, then **Enter** the first Room. A Wishing Well awaits here.
-
-Upon entering the first Room, your number of wishes equals 1 plus the Depth. For each wish, name any Fortune and resolve it.
+Take all Jokers from the Room and remove them from the game. Shuffle the Floor and Discard piles together to form a new Floor pile, then **Enter** the first Room.
 
 ## The end of the journey
 
@@ -239,7 +236,7 @@ Whenever you fight a Monster. Spades in the Room may join regardless of the Mons
 
 ### About Relics
 
-**Can I avoid playing a black Relic?**
+**Can I avoid health loss from a black Relic?**
 No. If you play a Relic, you must apply its effect. Store it in your Backpack to delay the decision, or use effects like Bury or Relief to discard it.
 
 ### About the Backpack
@@ -267,7 +264,7 @@ No. If you like your starting Room or want a harder start, skip it.
 ### About Stairs and Fortunes
 
 **Can Jokers be moved or discarded?**
-Yes, but only through effects: Bury (Diamond skill), Surprise (Joker Fortune), or the Peddler's trade.
+Yes, but only through effects: Bury (Diamond skill) or the Peddler's trade.
 
 **What happens if the Floor is empty when I play an Ace?**
 Just discard the Ace. No Fortune is drawn.
@@ -281,7 +278,7 @@ If Loss triggers with an empty Backpack, or Relief triggers with no valid target
 
 | Concept  | Rule                                                          |
 |----------|---------------------------------------------------------------|
-| Depth    | Number of Jokers removed from the game (0, 1, 2)              |
+| Depth    | Number of Jokers removed from the game (typically 0, 1, 2)    |
 | Health   | Starts at 20, cannot exceed 20, you die below 1               |
 | Hands    | Each one holds up to two Weapons, red and black separately    |
 | Backpack | Holds up to three Weapons or Relics                           |
@@ -292,7 +289,7 @@ If Loss triggers with an empty Backpack, or Relief triggers with no valid target
 | 5–10       | Weapons  | Equip to color-matching Hand, or use unique Skills   |
 | Face cards | Monsters | Strength: Jack 11, Queen 12, King 13                 |
 | Ace        | Scrolls  | Draw a card and face your Fortune                    |
-| Joker      | Stairs   | Single leads to next Floor, multiple to Secret Floor |
+| Joker      | Stairs   | Remove and descend to the next Floor                 |
 
 | Suit       | Skill  | Fortune  | Resolution                                  | Color |
 |------------|--------|----------|---------------------------------------------|-------|
@@ -300,11 +297,11 @@ If Loss triggers with an empty Backpack, or Relief triggers with no valid target
 | Clubs ♣    | Probe  | Loss     | Discard any card from your Backpack         | Black |
 | Hearts ♥   | Heal   | Vigor    | Gain Health equal to three times the Depth  | Red   |
 | Diamonds ♦ | Bury   | Relief   | Discard any Monster or Relic in the Room    | Red   |
-| Joker      | —      | Surprise | Discard any number of cards from the Room   | —     |
+| Joker      | —      | Surprise | Name and resolve any Fortune                | —     |
 
 | Fighting   | Room   | Hand     | Selected       | Case    | Health                      |
 |------------|--------|----------|----------------|---------|-----------------------------|
-| Q♠ (12)    | 7♠     | 5♣       | 5♣ + 7♠        | 12 = 12 | No change (clean kill)      |
+| Q♠ (12)    | 7♠     | 5♣       | 5♣ + 7♠        | 12 = 12 | No change + pick a fortune  |
 | J♠ (11)    | —      | 9♠, 10♣  | 10♣            | 10 < 11 | Lose 1 (9♠ saved for later) |
 | K♣ (13)    | 7♣     | 5♣, 6♠   | 5♣ + 6♠        | 11 < 13 | Lose 2 (7♣ can't join)      |
 | J♣ (11)    | —      | —        | —              | 0 < 11  | Lose 11 (barehanded)        |
@@ -312,4 +309,4 @@ If Loss triggers with an empty Backpack, or Relief triggers with no valid target
 | Q♥ (12)    | 9♠     | 6♥, 8♦   | 6♥ + 8♦ + 9♠   | 23 > 12 | Gain 11 (♠ bonus)           |
 | Q♥ (12)    | 9♠     | 6♥, 8♦   | 6♥ + 8♦        | 14 > 12 | No change (no ♠ selected)   |
 
-Keevorn · Revised December 2025 · MIT License · [github.com/JanuszPelc/Keevorn](https://github.com/JanuszPelc/Keevorn)
+Keevorn · 2nd Revision, December 2025 · MIT License · [github.com/JanuszPelc/Keevorn](https://github.com/JanuszPelc/Keevorn)
