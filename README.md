@@ -1,10 +1,10 @@
 # Keevorn
 
-Keevorn is a solo dungeon crawler you can play with a standard deck of cards and two Jokers. All you need is a deck, something to track health, and a bit of table space.
+Keevorn is a solo dungeon crawler you play with a standard deck of cards and two Jokers. All you need is a deck, something to track health, and a bit of table space.
 
 ## How to play
 
-- [Rulebook (PDF)](documents/keevorn_rulebook.pdf?raw=true)
+- [Download the rulebook (PDF)](https://raw.githubusercontent.com/JanuszPelc/Keevorn/master/documents/keevorn_rulebook.pdf)
 
 ## See also
 
